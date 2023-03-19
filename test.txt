@@ -54,3 +54,5 @@ PS D:\re22> git commit -m "第二次提交"
  1 file changed, 6 insertions(+), 1 deletion(-)
 
  git commit -m "第二次提交" 提交说明的简化操作,它会跳过vim编辑,大部分人都会用这种方式写提交说明,
+
+ 规范
