@@ -1,0 +1,39 @@
+[命令一]pwd(print work diectory)显示当前终端会话所在的目录位置
+D:\re01> pwd
+
+Path
+----
+D:\re01(D盘Re01目录)
+
+PS D:\> pwd
+
+Path
+----
+D:\ 
+
+[命令三]ls(list file)是显示当前目录下的所有文件
+PS D:\re01> ls
+
+[命令三]cd(change directory)是切换目录,后面跟路径,两个点是上一级
+PS D:\re01> cd..
+PS D:\> 
+
+
+
+PS D:\re01> git version
+git version 2.35.1.windows.1
+
+设置昵称和邮箱
+user是用户,name是昵称,email是邮箱
+PS D:\re01> git config --global user.name "hudie"
+PS D:\re01> git config --global user.email "3394144962@qq.com"
+
+在当前目录初始化,创建一个.git隐藏文件夹,文件夹里面会保存我们文件的每个git版本记录和变化,
+初始化之后,其实文件还没有被记录,我们要使用命令git add,把文件加进git版本控制系统中,命令后要跟文件名,比如git add test.txt
+PS D:\re01> git init
+Reinitialized existing Git repository in D:/re01/.git/
+PS D:\re01> git add te.txt
+
+那如果文件比较多怎么办?
+一个一个添加太麻烦了,就可以使用add.,这里点号代表当前目录的全部文件,添加进去之后,git只是暂时保存,还不会保存提交记录
+我们还要使用git commit(提交)命令,可以把刚才暂时保存的变更,提交固定成一个版本
