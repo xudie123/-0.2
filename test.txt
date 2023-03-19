@@ -55,4 +55,4 @@ PS D:\re22> git commit -m "第二次提交"
 
  git commit -m "第二次提交" 提交说明的简化操作,它会跳过vim编辑,大部分人都会用这种方式写提交说明,
 
- 规范
+ git history diff插件,可以看到所有历史提交
