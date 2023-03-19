@@ -61,5 +61,11 @@ PS D:\re22> git commit -m "第二次提交"
 HEAD is now at 74b68a9 第五次修改
 
 在不同版本中切换,branch,顾名思义,分支就是把当前版本复制一份,你可以在commit第二次的时候,用git branch 0.2命令创建一个0.2分支
-
 git branch 0.2
+在commit第二次的时候,用git branch 0.3命令创建一个0.3分支
+git branch 0.2
+
+git checkout 0.3 命令不断切换分支
+
+branch作用不仅仅切换版本,更重要的是,你可以在主流写代码,也可以在支流写代码,然后某一天把这两条分支用git merge合并在一起,
+
