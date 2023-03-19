@@ -56,3 +56,10 @@ PS D:\re22> git commit -m "第二次提交"
  git commit -m "第二次提交" 提交说明的简化操作,它会跳过vim编辑,大部分人都会用这种方式写提交说明,
 
  git history diff插件,可以看到所有历史提交
+
+ PS D:\re22> git reset --hard 74b68a9f608fa8f83a382b186707440438645501(commit id)
+HEAD is now at 74b68a9 第五次修改
+
+在不同版本中切换,branch,顾名思义,分支就是把当前版本复制一份,你可以在commit第二次的时候,用git branch 0.2命令创建一个0.2分支
+
+git branch 0.2
